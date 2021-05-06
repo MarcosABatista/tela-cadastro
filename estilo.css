@@ -1,0 +1,64 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(fundo2.jpg);
+    background-size: cover;
+}
+h1
+{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cadastro
+{
+    width: 50%;
+    height: 100%;
+    border: 2px solid #000;
+    left: 25%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+.cadastro input
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.cadastro input[type="text"], input[type="email"]
+{
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    height: 30px;
+    outline: none;
+}
+.cadastro input[type="number"]
+{
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    outline: none;
+}
+.cadastro input[type="password"]
+{
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+
+}
+.cadastro input[type="submit"]
+{
+    height: 30px;
+    border-radius: 80px 80px 80px 80px;
+}
